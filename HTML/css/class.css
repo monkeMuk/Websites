@@ -1,0 +1,17 @@
+
+/* 
+*{
+    color:"red"
+    means all 
+ } 
+
+ */
+.red{
+    color: firebrick;
+}
+.blue{
+    color: blue;
+}
+span{
+    text-transform: uppercase;
+}

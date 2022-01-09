@@ -1,0 +1,48 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    height: 100vh;
+    border: 20px solid black;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    flex-grow: 1;
+
+    
+}
+/*
+Column = y axis
+justify content = y axis
+align items = x axis
+
+
+Row = x axis
+justify content = x axis
+align items = y acxis
+*/
+
+.child1 {
+    height: 150px;
+    width: 150px;
+    background: blue;
+}
+.child2 {
+    height: 150px;
+    width: 150px;
+    background: violet;
+    order: 2;
+}
+.child3 {
+    height: 150px;
+    width: 150px;
+    background: green;
+    order: 1;
+    
+}

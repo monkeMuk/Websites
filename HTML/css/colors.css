@@ -1,0 +1,55 @@
+
+body{
+    background:#4F772D ;
+}
+p{
+    color: #60463B;
+}
+* {
+    color: royalblue;
+}
+
+#First{
+    color: #2E3138;
+    background: #D36582;
+    font-size: 60px;
+    width: 250px;
+    height: 200px;
+
+}
+
+#second{
+    color: #BEB7A4;
+    background: rgb(1,1,80);
+}
+
+.outer{
+    background: beige;
+    width: 1250px;
+    height: 200px;
+}
+.inner{
+    background: bisque;
+    width: 25%;
+    height: 325%;
+}
+
+.banner{
+    width: 100vw;
+    height: 25vh;
+    background: blanchedalmond;
+}
+
+/* % depends on the parent  */
+/* 
+em - relative depends on paretns
+
+1em - 16px default browser style
+
+1em - base value
+ 
+vh - view height - percentage of screen
+
+vw - view width - percentage of screen 
+ 
+*/

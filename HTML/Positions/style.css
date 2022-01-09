@@ -1,0 +1,81 @@
+.parent{
+    background: aqua;
+    position: relative;
+    top: 100px;
+    /* 
+    this moves the absolute relative together
+    */ 
+}
+
+.one {
+    background: bisque;
+    position: relative;
+    /* 
+        relative allows me to change the position of the element relative to the orinial location
+    */
+    left: 10px;
+    padding: 10px;
+
+}
+.two {
+    background: brown;
+    position: absolute;
+    /* 
+    Useful if u wanna stick an element without wanting to move other elements - does not care about other elements
+    */
+    top: 0;
+    left: 0;
+}
+.three {
+    background: coral;
+}
+
+.box {
+    color: white;
+    background: darkblue;
+    position: relative;
+    bottom: -100px;
+    /* 
+    - to outward + to go inward
+    */
+}
+
+/* 
+Relative position 
+- position relative to itself
+*/
+
+
+/* 
+Document flow - Inline
+---- ----   ----   ----
+
+Document flow - Block
+----
+---------
+---
+-----
+*/
+
+
+
+/* 
+Absolute positioning sample
+
+the child's position is relative to the parents
+*/
+
+.parent2 {
+    position: relative;
+    background: brown;
+    color: white;
+    text-align: center;
+    left: 200px;
+    right: -200px;
+}
+
+.child1 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
